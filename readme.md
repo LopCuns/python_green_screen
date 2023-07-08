@@ -6,7 +6,6 @@ The user provides two images, a new background image and an image with green bac
 This application has a gui buil with tkinter while the logic of the algorithm is performed with Python programming language.
 
 # Steps in the algorithm
- - Build green screen algorithm
   1. Get the background and the foreground image
   2. Select the pixels in the foreground image that have more green value than red and blue added
   3. Replace those pixels with the pixels in the background image in the same position
