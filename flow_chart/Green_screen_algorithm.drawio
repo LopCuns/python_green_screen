@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2023-07-08T16:32:49.797Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="QLmSAKhhkYj8oXaBefxX" version="21.6.1" type="device">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="3500" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-1" target="0lFIlC1nUCWAWM_GknW1-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-1" value="Get foreground and background images" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-8" value="Have both images been given?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-12" target="0lFIlC1nUCWAWM_GknW1-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-12" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="265" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-13" target="0lFIlC1nUCWAWM_GknW1-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-13" value="N" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="265" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-20" target="0lFIlC1nUCWAWM_GknW1-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-20" value="Open the foreground and the background images" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="360" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-23" value="Is this pixel green?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="520" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-24" target="0lFIlC1nUCWAWM_GknW1-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-24" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="195" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-25" target="0lFIlC1nUCWAWM_GknW1-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-25" value="N" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="445" y="545" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-27" target="0lFIlC1nUCWAWM_GknW1-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-27" value="Get a pixel on the foreground image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="440" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-30" target="0lFIlC1nUCWAWM_GknW1-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-30" value="Get the position of the pixel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="620" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-31" target="0lFIlC1nUCWAWM_GknW1-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-31" value="Get the pixel in the same position in the background image" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="700" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="850" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="840" />
+              <mxPoint x="460" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-33" value="Replace the pixel in the foreground for it&#39;s correspondant in the background" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="780" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-42" value="Is it the last pixel" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="850" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-43" target="0lFIlC1nUCWAWM_GknW1-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-43" value="Y" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="875" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0lFIlC1nUCWAWM_GknW1-44" target="0lFIlC1nUCWAWM_GknW1-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="585" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-44" value="N" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="570" y="875" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0lFIlC1nUCWAWM_GknW1-49" value="Provide the result to the user" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="990" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
